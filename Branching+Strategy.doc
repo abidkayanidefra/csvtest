@@ -1,0 +1,356 @@
+Message-ID: <1621126380.33.1736512892624@ea561ce5a284>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_32_1855529118.1736512892623"
+
+------=_Part_32_1855529118.1736512892623
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Branching Strategy</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Branching Strategy</h1>
+    <div class=3D"Section1">
+        <p>ADO Trunk Based Branching Strategy is a popular branching strate=
+gy used in software development to maintain a healthy code base and to prom=
+ote code stability. This strategy revolves around maintaining a single code=
+ base, called the "trunk", from which all new features, bug fixes, and enha=
+ncements are derived. This technical documentation provides step-by-step in=
+structions for using ADO trunk-based branching strategy in your software de=
+velopment journey.</p>
+<p></p>
+<p>Step 1: Set up ADO Trunk</p>
+<p>The first step in using the ADO Trunk Based Branching Strategy is to set=
+ up the trunk. The trunk is the mainline of your code base and should conta=
+in your production-ready code. Here are the steps to set up your trunk in A=
+DO:</p>
+<p>1. Create/clone a new repository in ADO and name it something meaningful=
+:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">git clo=
+ne &lt;repository-url&gt;</pre>
+</div>
+</div>
+<p>2. Create a new branch for the trunk:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">git che=
+ckout -b main</pre>
+</div>
+</div>
+<p>3. Push the trunk branch to the ADO repository:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">git pus=
+h origin main</pre>
+</div>
+</div>
+<p></p>
+<p>Step 2: Crete Feature Branches</p>
+<p>The next step is to create feature branches from the trunk. Feature bran=
+ches are used to develop new features or enhancements without affecting the=
+ mainline trunk. Here are the steps to create feature branches in ADO:</p>
+<p>1. Create a new feature branch from the trunk</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">git che=
+ckout -b new-feature main</pre>
+</div>
+</div>
+<p>2. Develop your new feature on enhancement in the feature branch</p>
+<p>3. Add your changes to the feature branch</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">git add=
+ &lt;file-name&gt;</pre>
+</div>
+</div>
+<p>4. Commit your changes</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">git com=
+mit -m "commit message"</pre>
+</div>
+</div>
+<p>5. Push your branch to the remote repository</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">git pus=
+h origin new-feature</pre>
+</div>
+</div>
+<p>6. When the feature is complete, create a pull request in preparation fo=
+r code review</p>
+<p></p>
+<h1 id=3D"BranchingStrategy-BranchNaming">Branch Naming</h1>
+<p>When creating a branch the naming format should be: {prefix}/laps-xxxx-{=
+summary-of-change}</p>
+<p><strong>Prefix</strong></p>
+<p>The prefix can be one of the following:</p>
+<ul>
+<li>
+<p>bug</p></li>
+<li>
+<p>feature</p></li>
+<li>
+<p>hotfix</p></li>
+</ul>
+<p><strong>ADO ticket number</strong></p>
+<p>The xxxx represents the associated ADO number for the ticket being worke=
+d on. This is a direct copy of what is in ADO.</p>
+<h1 id=3D"BranchingStrategy-CommitMessageGuidelines">Commit Message Guideli=
+nes</h1>
+<ul>
+<li>
+<p>Short subject/summary line</p></li>
+<li>
+<p>Start by referencing the story number (Eg. #laps-xxxx)</p></li>
+<li>
+<p>72 character length limit</p></li>
+<li>
+<p>Do not end with a period</p></li>
+<li>
+<p>User the imperative mood (eg. say =E2=80=9CFix=E2=80=9D rather than =E2=
+=80=9CFixed=E2=80=9D)</p></li>
+</ul>
+<p>Example: laps-1234: create new feature</p>
+<h1 id=3D"BranchingStrategy-BranchPolicies">Branch Policies</h1>
+<p>Before merging, a branch should have a green CI pipeline. All comments l=
+eft in code review should be resolved and the PR should be reviewed by at l=
+east 2 people that didn=E2=80=99t work on the story. One of the approvers s=
+hould be the Technical Architect or the Lead Engineer.</p>
+<p>The branch should also be rebased to avoid conflicts and all commits squ=
+ashed in order to initiate the merge. Once the merge is successful the bran=
+ch should be deleted as part of the process.</p>
+    </div>
+</body>
+</html>
+------=_Part_32_1855529118.1736512892623--
